@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartMuseum.MuzeuDeStiinte"
+             BackgroundColor="AliceBlue">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Button
+                VerticalOptions="Center"
+                Text="Cascada Balea"
+                TextColor="Black"
+                BackgroundColor="Orange"
+                BorderColor="Gray"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Balea"></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Pasari calatoare"
+                TextColor="Black"
+                BackgroundColor="Pink"
+                BorderColor="Gray"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Pasari"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

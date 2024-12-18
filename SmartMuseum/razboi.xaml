@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartMuseum.razboi"
+             BackgroundColor="AliceBlue">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+            <Label Text="Poveste Audio Razboi"
+                   TextType="Text" 
+                   FontSize="30" 
+                   HorizontalOptions="Center"
+                   TextColor="Gray"  />
+            <Button
+                VerticalOptions="Center"
+                Text="Play"
+                WidthRequest="50" 
+                TextColor="White"
+                BackgroundColor="green"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Start_Razboi"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Pause"
+                TextColor="White"
+                BackgroundColor="Orange"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Pause_Razboi"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Stop"
+                TextColor="White"
+                BackgroundColor="Red"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Stop_Razboi"
+                ></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartMuseum.bealea_template"
+             BackgroundColor="AliceBlue">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+
+            <Label Text="Poveste Audio Balea"
+                   TextType="Text" 
+                   FontSize="30" 
+                   HorizontalOptions="Center"
+                   TextColor="Gray"  />
+            <Button
+                VerticalOptions="Center"
+                Text="Play"
+                WidthRequest="50" 
+                TextColor="White"
+                BackgroundColor="green"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Story_Start_Balea"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Pause"
+                TextColor="White"
+                BackgroundColor="Orange"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Story_Pause_Balea"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Stop"
+                TextColor="White"
+                BackgroundColor="Red"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Story_Stop_Balea"
+                ></Button>
+
+            <Label Text="Sunet Demo Balea"
+                   TextType="Text" 
+                   FontSize="30" 
+                   TextColor="Gray" 
+                   Margin="0, 50,  0, 0"
+                   HorizontalOptions="Center"
+                   />
+            <Button
+                VerticalOptions="Center"
+                Text="Play"
+                TextColor="White"
+                BackgroundColor="Green"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Sound_Start_Balea"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Pause"
+                TextColor="White"
+                BackgroundColor="Orange"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Sound_Pause_Balea"
+                ></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Stop"
+                TextColor="White"
+                BackgroundColor="Red"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Sound_Stop_Balea"
+                ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

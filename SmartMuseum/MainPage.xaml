@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartMuseum.MainPage" 
+             BackgroundColor="AliceBlue">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Button
+                VerticalOptions="Center"
+                Text="Muzeul de stiinte"
+                TextColor="White"
+                BackgroundColor="Red"
+                BorderColor="Gray"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Stiinte"></Button>
+
+            <Button
+                VerticalOptions="Center"
+                Text="Muzeul de istorie a Romaniei"
+                TextColor="White"
+                BackgroundColor="Gray"
+                BorderColor="Gray"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Istorie"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
